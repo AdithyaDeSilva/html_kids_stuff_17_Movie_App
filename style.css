@@ -122,3 +122,9 @@ main {
 .movie:hover .overview {
     transform: translateY(0);
 }
+
+@media (max-width: 720px){
+    .logo {
+        visibility: hidden;
+    }
+}
